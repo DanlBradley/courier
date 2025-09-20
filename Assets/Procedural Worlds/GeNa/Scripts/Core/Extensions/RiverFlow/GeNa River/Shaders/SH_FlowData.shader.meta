@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: df2fc9219bfac6545911085307d533b4
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Core/Extensions/RiverFlow/GeNa
+    River/Shaders/SH_FlowData.shader
+  uploadId: 646938

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1fee17872b89c04f929b168e78a125e
+timeCreated: 1542395183
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Localization/English/GeNaManagerEditor.English.pwlpk
+  uploadId: 646938

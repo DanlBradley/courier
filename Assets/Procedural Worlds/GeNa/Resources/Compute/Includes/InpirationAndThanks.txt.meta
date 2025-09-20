@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ba801af48b479a0498c3a0da74804cd8
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Compute/Includes/InpirationAndThanks.txt
+  uploadId: 646938

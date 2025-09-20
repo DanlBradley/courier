@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4a08f80188dbb924cb1e472314035df7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200827
+  packageName: Stylized anime trees
+  packageVersion: 1.2
+  assetPath: Assets/KumaBeer/Stylized anime trees/Shaders/Foliage toon.shader
+  uploadId: 752096

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb7a03602d2e4bfe9369606a272f7083, type: 3}
+  m_Name: BleedingEffect
+  m_EditorClassIdentifier: 
+  id: bleeding
+  name: Bleeding Effect Normal
+  description: You are bleeding!
+  icon: {fileID: 15336150935055560, guid: e92c1785f2a6644e6afff573a82fd58f, type: 3}
+  isDebuff: 1
+  durationType: 1
+  duration: 10
+  stackingRule: 0
+  modifiers: []
+  actions:
+  - trigger: 3
+    actionType: DamageHealth
+    value: 2
+    interval: 1

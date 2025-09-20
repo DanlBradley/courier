@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: cfb0953323244954ebf110875e40970f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Materials/GeNa_FlowRiver_LitBasic_HDRP.mat
+  uploadId: 646938

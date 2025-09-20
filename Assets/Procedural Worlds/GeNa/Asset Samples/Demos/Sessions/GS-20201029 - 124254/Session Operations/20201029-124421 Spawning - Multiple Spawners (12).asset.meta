@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 057a43c9f9110ba4d8ba14a03c8732bf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Demos/Sessions/GS-20201029
+    - 124254/Session Operations/20201029-124421 Spawning - Multiple Spawners (12).asset
+  uploadId: 646938

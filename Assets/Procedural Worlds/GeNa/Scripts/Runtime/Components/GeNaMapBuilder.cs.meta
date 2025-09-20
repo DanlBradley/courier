@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 0e237f19d3e670842a982058cdcb8be3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Runtime/Components/GeNaMapBuilder.cs
+  uploadId: 646938

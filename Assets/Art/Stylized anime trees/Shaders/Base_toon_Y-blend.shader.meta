@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7000b5d8ed4a4af42aa79baaf76bae46
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 200827
+  packageName: Stylized anime trees
+  packageVersion: 1.2
+  assetPath: Assets/KumaBeer/Stylized anime trees/Shaders/Base_toon_Y-blend.shader
+  uploadId: 752096

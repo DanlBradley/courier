@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54830465f7c4c4088065c429450ea91, type: 3}
+  m_Name: GeneralModule
+  m_EditorClassIdentifier: 
+  id: general_module
+  name: Pouch
+  description: A basic backpack frame module that can be attached to your frame.
+  sprite: {fileID: -6288897931861500716, guid: 5c9c98e364bb9408c92f830911db1b28, type: 3}
+  size: {x: 5, y: 4}
+  behaviors: []
+  containerSize: {x: 5, y: 4}
+  moduleType: 0
+  moduleSize: {x: 5, y: 4}
+  waterproof: 0
+  weightModifier: 1
+  allowedCategories: 

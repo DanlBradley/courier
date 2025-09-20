@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ab478c0236d9d0e40b0b783e9e55d552
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Script Examples/Scripts/GeNaRuntimeExample.cs
+  uploadId: 646938

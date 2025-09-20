@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 1a886b992d9b2fe49b77d3d523f441ac
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Editor/GeNaGaiaGeoSpacialUtility.cs
+  uploadId: 646938

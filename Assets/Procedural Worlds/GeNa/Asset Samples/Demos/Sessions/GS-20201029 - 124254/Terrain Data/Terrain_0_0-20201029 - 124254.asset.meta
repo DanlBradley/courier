@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cf537bcfd4eea51408cbda272e9d63aa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Demos/Sessions/GS-20201029
+    - 124254/Terrain Data/Terrain_0_0-20201029 - 124254.asset
+  uploadId: 646938

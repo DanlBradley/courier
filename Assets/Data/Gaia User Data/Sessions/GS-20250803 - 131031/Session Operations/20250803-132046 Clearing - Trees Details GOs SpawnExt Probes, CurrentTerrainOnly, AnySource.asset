@@ -1,0 +1,5142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6692292298522829927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d61257710f55f478816040e1d1dfc9, type: 3}
+  m_Name: Giant Forest Biome Combined(Clone)
+  m_EditorClassIdentifier: 
+  m_resources:
+    m_resourcesID: a774e361-64f4-4be0-8f92-3c85553e4aa0
+    m_name: Gaia Resource
+    m_beachHeight: 5
+    m_terrainHeight: 1000
+    m_texturePrototypes:
+    - m_name: PWT_Grass_03_Dark_D
+      m_texture: {fileID: 2800000, guid: 8aeee82e568afb240a2ed53c1318d80b, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: c0ff98ace5cd21d48b8c8ad2adcf4fd9, type: 3}
+      m_maskmap: {fileID: 2800000, guid: 7de3bed47578ee84c8d4cfc89a36260f, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 2
+      m_sizeY: 2
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.1
+      m_spawnCriteria: []
+      m_LayerGUID: b53b73f6b82f11c4e9dce91b6a3d6720
+      m_normalScale: 0.87
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: PW_Beach_Sand_D
+      m_texture: {fileID: 2800000, guid: e3f17a6e4a4c8f84b8c0589b8aafccd9, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: d5ebc139dead0b04cb78a0c380a091bf, type: 3}
+      m_maskmap: {fileID: 2800000, guid: 42bf544cc8aaca7468b1bf65e4a52d1d, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 8
+      m_sizeY: 8
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.1
+      m_spawnCriteria: []
+      m_LayerGUID: e9112700046b65c458b90c7bda07ad84
+      m_normalScale: 1.09
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: PW_Stone_Grey_02_Cliff_Moss_D
+      m_texture: {fileID: 2800000, guid: 21450933ada8c4243af9e903a9cb0e5b, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: 63cc63638b46e0c4b91ceea1d9cd1144, type: 3}
+      m_maskmap: {fileID: 2800000, guid: a0e11f006b5609e44a90110b8404e716, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 8
+      m_sizeY: 8
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.1
+      m_spawnCriteria: []
+      m_LayerGUID: 9a61387f6d94d6946b3cfe3a948e068f
+      m_normalScale: 1.07
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: PW_Craggy Cliff_D
+      m_texture: {fileID: 2800000, guid: e94ef7a510706d64ca0bbd33b3cb15c6, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: 972152e7f7614f94bb9c163fd5fdefab, type: 3}
+      m_maskmap: {fileID: 2800000, guid: 58827adfe0ff7eb46936d3b27ba6cfb9, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 8
+      m_sizeY: 8
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.1
+      m_spawnCriteria: []
+      m_LayerGUID: fd0073c257a8ac041a9fbbf7c282dad8
+      m_normalScale: 1.12
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: PWT_Stone_Riverbed_01_D
+      m_texture: {fileID: 2800000, guid: 110b015124f255747b5ca3c9857190ad, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: 2a314487d0b83414f8d1e01016ec8da1, type: 3}
+      m_maskmap: {fileID: 2800000, guid: 930013781513dbc4fae6e178412eb5ac, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 4
+      m_sizeY: 4
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.4
+      m_spawnCriteria: []
+      m_LayerGUID: 363806e8cf0fbda4793194714aa9281f
+      m_normalScale: 1.11
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: PW_Forest_Path_D
+      m_texture: {fileID: 2800000, guid: a932f95468a81b048b51d83dde5ddc30, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: f2bd79b98e582954ca47db8998dbaaac, type: 3}
+      m_maskmap: {fileID: 2800000, guid: cbedbe630a8964e4394fcee664742039, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 4
+      m_sizeY: 4
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.1
+      m_spawnCriteria: []
+      m_LayerGUID: f7dbbddf6082b8444bee6185e935950c
+      m_normalScale: 1.05
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: PW_Ground_Forest_Sequia_01_D
+      m_texture: {fileID: 2800000, guid: 1aec01d04426cd248acc98c5f28d7b4d, type: 3}
+      m_textureFileName: 
+      m_normal: {fileID: 2800000, guid: 678c6be87e8ab044295da704e6b123c5, type: 3}
+      m_maskmap: {fileID: 2800000, guid: 9688da9c93301f640b54a76d00c3b01c, type: 3}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 2
+      m_sizeY: 2
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0
+      m_smoothness: 0.5
+      m_spawnCriteria: []
+      m_LayerGUID: f1c1f8e9104918e4a965532366bca885
+      m_normalScale: 1.08
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: New Texture 1
+      m_texture: {fileID: 0}
+      m_textureFileName: 
+      m_normal: {fileID: 0}
+      m_maskmap: {fileID: 0}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 10
+      m_sizeY: 10
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0.5
+      m_smoothness: 0.5
+      m_spawnCriteria: []
+      m_LayerGUID: 
+      m_normalScale: 0
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    - m_name: New Texture 1
+      m_texture: {fileID: 0}
+      m_textureFileName: 
+      m_normal: {fileID: 0}
+      m_maskmap: {fileID: 0}
+      m_CTSSmoothnessMap: {fileID: 0}
+      m_CTSRoughnessMap: {fileID: 0}
+      m_CTSHeightMap: {fileID: 0}
+      m_CTSAmbientOcclusionMap: {fileID: 0}
+      m_normalFileName: 
+      m_sizeX: 10
+      m_sizeY: 10
+      m_offsetX: 0
+      m_offsetY: 0
+      m_metallic: 0.5
+      m_smoothness: 0.5
+      m_spawnCriteria: []
+      m_LayerGUID: 
+      m_normalScale: 0
+      m_diffuseRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_diffuseRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_maskMapRemapMax: {x: 1, y: 1, z: 1, w: 1}
+      m_maskMapRemapMin: {x: 0, y: 0, z: 0, w: 0}
+      m_specularColor: {r: 0, g: 0, b: 0, a: 0}
+      m_channelRemapFoldedOut: 0
+      m_currentLayer: {fileID: 0}
+    m_detailPrototypes:
+    - m_name: PW_WildGrass_General_Lod0
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 1
+      m_density: 5
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: 0ebb63599be13184a97b9bed9f05f25a, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 1
+      m_maxWidth: 3
+      m_minHeight: 1
+      m_maxHeight: 3
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    - m_name: PW_WildGrass_Understory_Sticks
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 1
+      m_density: 1
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: c03b1dc5ef077e44a9e8677fbd4aae13, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 2
+      m_maxWidth: 3
+      m_minHeight: 2
+      m_maxHeight: 3
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    - m_name: PW_WildGrass_Understory_Foliage
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 1
+      m_density: 1
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: 5a9685af9fe42d34da83e2f975f589c4, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 2
+      m_maxWidth: 3
+      m_minHeight: 2
+      m_maxHeight: 3
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    - m_name: PW_LawnGrass_DeadPatch
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 1
+      m_density: 1
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: 10be9dec73d8f3446b5a4ae70b04ec8e, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 3
+      m_maxWidth: 4
+      m_minHeight: 3
+      m_maxHeight: 4
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    - m_name: PW_LawnGrass_Wheat_03
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 0.5
+      m_density: 1
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: cdcc5cce5cc8de146bd17da33f85a511, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 2
+      m_maxWidth: 3
+      m_minHeight: 2
+      m_maxHeight: 3
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    - m_name: PW_LawnGrass_CloverFlower
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 0
+      m_density: 1
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: cd765b8fa2a2daa40a70a096f4a10e5c, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 3
+      m_maxWidth: 4
+      m_minHeight: 3
+      m_maxHeight: 4
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    - m_name: PW_LawnGrass_Dandelions
+      m_renderMode: 1
+      m_useInstancing: 1
+      m_alignToGround: 0
+      m_density: 1
+      m_holeEdgePadding: 0
+      m_noiseSeed: 0
+      m_positionJitter: 0
+      m_targetCoverage: 1
+      m_useDensityScaling: 1
+      m_detailProtoype: {fileID: 919132149155446097, guid: 85869f1960ba785469a5aa6bcb2753d5, type: 3}
+      m_detailPrototypeFileName: 
+      m_detailTexture: {fileID: 0}
+      m_detailTextureFileName: 
+      m_minWidth: 3
+      m_maxWidth: 4
+      m_minHeight: 3
+      m_maxHeight: 4
+      m_noiseSpread: 0.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_dnaFoldedOut: 0
+    m_treePrototypes:
+    - m_name: PW_Tree_Sequoia_01
+      m_desktopPrefab: {fileID: 5244156249065330910, guid: 1e2f6dd72897bec489ebfe35226bbaf7, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 0.5
+      m_maxWidth: 1
+      m_minHeight: 0.5
+      m_maxHeight: 1
+      m_widthRandomPercentage: 0.3
+      m_heightRandomPercentage: 0.3
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 0.5
+      m_lastUsedMaxWidth: 1
+      m_lastUsedMinHeight: 0.5
+      m_lastUsedMaxHeight: 1
+      m_lastUsedWidthRandomPercentage: 0.3
+      m_lastUsedHeightRandomPercentage: 0.3
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Sequoia_02
+      m_desktopPrefab: {fileID: 3907657317906885401, guid: f8783d0d4b154c24aab3f8f3f4ca2d3f, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 0.4
+      m_maxWidth: 1
+      m_minHeight: 0.4
+      m_maxHeight: 0.8
+      m_widthRandomPercentage: 0.3
+      m_heightRandomPercentage: 0.3
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 0.4
+      m_lastUsedMaxWidth: 1
+      m_lastUsedMinHeight: 0.4
+      m_lastUsedMaxHeight: 0.8
+      m_lastUsedWidthRandomPercentage: 0.3
+      m_lastUsedHeightRandomPercentage: 0.3
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Spruce_01
+      m_desktopPrefab: {fileID: 7025381963333907101, guid: 471788783c85bbf4281010ba8d944acf, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 37.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 3
+      m_maxWidth: 5
+      m_minHeight: 3
+      m_maxHeight: 5
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 3
+      m_lastUsedMaxWidth: 5
+      m_lastUsedMinHeight: 3
+      m_lastUsedMaxHeight: 5
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Spruce_04
+      m_desktopPrefab: {fileID: 8027248633461390152, guid: eb24491611266984e80a94a0cbfdc8ad, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 2
+      m_maxWidth: 3
+      m_minHeight: 2
+      m_maxHeight: 3
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 2
+      m_lastUsedMaxWidth: 3
+      m_lastUsedMinHeight: 2
+      m_lastUsedMaxHeight: 3
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Spruce_07_Hero
+      m_desktopPrefab: {fileID: 6847023277904564872, guid: 0af82a2ab0505bb4b9c279fc7e27eeea, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 2.5
+      m_maxWidth: 3
+      m_minHeight: 2.5
+      m_maxHeight: 3
+      m_widthRandomPercentage: 0.1
+      m_heightRandomPercentage: 0.1
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 2.5
+      m_lastUsedMaxWidth: 3
+      m_lastUsedMinHeight: 2.5
+      m_lastUsedMaxHeight: 3
+      m_lastUsedWidthRandomPercentage: 0.1
+      m_lastUsedHeightRandomPercentage: 0.1
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Spruce_06
+      m_desktopPrefab: {fileID: 6847023277904564872, guid: a4cb8c2a723ad6c4998e2c6a4ace99ca, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 3
+      m_maxWidth: 4
+      m_minHeight: 3
+      m_maxHeight: 4
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 3
+      m_lastUsedMaxWidth: 4
+      m_lastUsedMinHeight: 3
+      m_lastUsedMaxHeight: 4
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Pine_01_Hero
+      m_desktopPrefab: {fileID: 792905499359608883, guid: 709a8714fa344ba4c8246e88dc129804, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 37.3
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1
+      m_maxWidth: 2
+      m_minHeight: 1
+      m_maxHeight: 2
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1
+      m_lastUsedMaxWidth: 2
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 2
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Pine_01_Long
+      m_desktopPrefab: {fileID: 1490523839772519690, guid: 2ecb4b22618ef6545af524e4fc6e24e1, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1
+      m_maxWidth: 2
+      m_minHeight: 1
+      m_maxHeight: 2
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1
+      m_lastUsedMaxWidth: 2
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 2
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Pine_02 Long
+      m_desktopPrefab: {fileID: 3527719764134866729, guid: 37f4d2edca172904ba264bff7ad88d8a, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1
+      m_maxWidth: 2
+      m_minHeight: 1
+      m_maxHeight: 3
+      m_widthRandomPercentage: 0.1
+      m_heightRandomPercentage: 0.1
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1
+      m_lastUsedMaxWidth: 2
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 3
+      m_lastUsedWidthRandomPercentage: 0.1
+      m_lastUsedHeightRandomPercentage: 0.1
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Pine_02_Hero
+      m_desktopPrefab: {fileID: 792905499359608883, guid: 5a25ed1615b492344a3b858f830c4163, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1
+      m_maxWidth: 2
+      m_minHeight: 1
+      m_maxHeight: 2
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1
+      m_lastUsedMaxWidth: 2
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 2
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Small_01
+      m_desktopPrefab: {fileID: 4241361742752720050, guid: 5c3e2e2b86255524181ad3ee5982cc65, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 1
+      m_minWidth: 0.75
+      m_maxWidth: 1.6
+      m_minHeight: 0.75
+      m_maxHeight: 1.6
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 1
+      m_lastUsedMinWidth: 0.75
+      m_lastUsedMaxWidth: 1.6
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 1.6
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Small_02
+      m_desktopPrefab: {fileID: 3403012897276277082, guid: 5c9a2885c7c9875499df798ba88f40ca, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 1
+      m_minWidth: 0.75
+      m_maxWidth: 1.5
+      m_minHeight: 0.75
+      m_maxHeight: 1.5
+      m_widthRandomPercentage: 0.5
+      m_heightRandomPercentage: 0.5
+      m_lastUsedSpawnScale: 1
+      m_lastUsedMinWidth: 0.75
+      m_lastUsedMaxWidth: 1.5
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 1.5
+      m_lastUsedWidthRandomPercentage: 0.5
+      m_lastUsedHeightRandomPercentage: 0.5
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Plant_Fern_02
+      m_desktopPrefab: {fileID: 3926372882901288413, guid: 9e42153ee58d32041b031ccf0de992da, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1.5
+      m_maxWidth: 2.5
+      m_minHeight: 1.5
+      m_maxHeight: 2.5
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1.5
+      m_lastUsedMaxWidth: 2.5
+      m_lastUsedMinHeight: 1.5
+      m_lastUsedMaxHeight: 2.5
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Plant_Fern_Realistic_01
+      m_desktopPrefab: {fileID: 4495520582882520621, guid: f333f387e796ad04f812a0fd86ae297e, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 0.5
+      m_maxWidth: 1
+      m_minHeight: 0.5
+      m_maxHeight: 1
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 0.5
+      m_lastUsedMaxWidth: 1
+      m_lastUsedMinHeight: 0.5
+      m_lastUsedMaxHeight: 1
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Plant_Fern_Realistic_02
+      m_desktopPrefab: {fileID: 1120019319886688430, guid: 9180e419bfc0c234586abfdafb4937ac, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1
+      m_maxWidth: 2.5
+      m_minHeight: 1
+      m_maxHeight: 2.5
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1
+      m_lastUsedMaxWidth: 2.5
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 2.5
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Plant_Fern_Realistic_03
+      m_desktopPrefab: {fileID: 6115922682010128875, guid: 45eec54989fb50d4ab7abae72337ee6d, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 1
+      m_maxWidth: 2
+      m_minHeight: 1
+      m_maxHeight: 2
+      m_widthRandomPercentage: 0.3
+      m_heightRandomPercentage: 0.3
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 1
+      m_lastUsedMaxWidth: 2
+      m_lastUsedMinHeight: 1
+      m_lastUsedMaxHeight: 2
+      m_lastUsedWidthRandomPercentage: 0.3
+      m_lastUsedHeightRandomPercentage: 0.3
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: PW_Plant_Fern_01
+      m_desktopPrefab: {fileID: 3803426106304524782, guid: ed035562929f56d4eb82f3f4effc1166, type: 3}
+      m_desktopPrefabFileName: 
+      m_mobilePrefabFileName: 
+      m_bendFactor: 0
+      m_healthyColour: {r: 1, g: 1, b: 1, a: 1}
+      m_dryColour: {r: 1, g: 1, b: 1, a: 1}
+      m_snapToTerrain: 1
+      m_customOffset: 0
+      m_minYOffset: -2
+      m_maxYOffset: 2
+      m_yOffsetBasedOn: 0
+      m_spawnScale: 3
+      m_minWidth: 0.75
+      m_maxWidth: 2
+      m_minHeight: 0.75
+      m_maxHeight: 2
+      m_widthRandomPercentage: 0.2
+      m_heightRandomPercentage: 0.2
+      m_lastUsedSpawnScale: 3
+      m_lastUsedMinWidth: 0.75
+      m_lastUsedMaxWidth: 2
+      m_lastUsedMinHeight: 0.75
+      m_lastUsedMaxHeight: 2
+      m_lastUsedWidthRandomPercentage: 0.2
+      m_lastUsedHeightRandomPercentage: 0.2
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    m_gameObjectPrototypes:
+    - m_name: High - PW_Stone_01
+      m_instances:
+      - m_name: PW_Stone_01
+        m_desktopPrefab: {fileID: 3242204568188846338, guid: 35348ac853f10584a9e52b978af197f9, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 2
+        m_maxInstances: 6
+        m_failureRate: 0
+        m_minSpawnOffsetX: -6
+        m_maxSpawnOffsetX: 6
+        m_minSpawnOffsetY: -0.3
+        m_maxSpawnOffsetY: 0.1
+        m_minSpawnOffsetZ: -6
+        m_maxSpawnOffsetZ: 6
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 154.64308
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 158.28174
+        m_minScale: 0.7
+        m_maxScale: 4
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 3
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 0.4
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 1
+    - m_name: Mid - PW_Stone_01_ Moss
+      m_instances:
+      - m_name: PW_Stone_01_ Moss
+        m_desktopPrefab: {fileID: 2886385177403745875, guid: d9d0c3d5490f2f542b8ecb4b0b81f89e, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 2
+        m_maxInstances: 20
+        m_failureRate: 0
+        m_minSpawnOffsetX: -5
+        m_maxSpawnOffsetX: 5
+        m_minSpawnOffsetY: -0.3
+        m_maxSpawnOffsetY: -0.1
+        m_minSpawnOffsetZ: -4
+        m_maxSpawnOffsetZ: 4
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 141.90778
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 156.46242
+        m_minScale: 1
+        m_maxScale: 3
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 3
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 0.25
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 1
+    - m_name: Low - PW_Stone_05
+      m_instances:
+      - m_name: PW_Stone_05
+        m_desktopPrefab: {fileID: 364788623723675844, guid: 22f27713b52ffc049bd3680b8996cd6e, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 3
+        m_maxInstances: 6
+        m_failureRate: 0
+        m_minSpawnOffsetX: -8
+        m_maxSpawnOffsetX: 8
+        m_minSpawnOffsetY: -0.3
+        m_maxSpawnOffsetY: -0.1
+        m_minSpawnOffsetZ: -8
+        m_maxSpawnOffsetZ: 8
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 160.72514
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 163.97212
+        m_minScale: 0.8
+        m_maxScale: 3
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 3
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 0.5
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 1
+    - m_name: Shore - PW_Stone_02_Moss
+      m_instances:
+      - m_name: PW_Stone_02_Moss
+        m_desktopPrefab: {fileID: 7321800305126753187, guid: 76446c09c17b15a48b43a4fa4c788581, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 3
+        m_maxInstances: 8
+        m_failureRate: 0
+        m_minSpawnOffsetX: -10
+        m_maxSpawnOffsetX: 10
+        m_minSpawnOffsetY: -0.5
+        m_maxSpawnOffsetY: -0.1
+        m_minSpawnOffsetZ: -10
+        m_maxSpawnOffsetZ: 10
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 158.28174
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 171.01706
+        m_minScale: 0.8
+        m_maxScale: 2.5
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 0
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 34
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 3
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 0.8
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 1
+    - m_name: PW_Tree_Stump_05
+      m_instances:
+      - m_name: PW_Tree_Stump_05
+        m_desktopPrefab: {fileID: 948288586042455610, guid: d0d4350cd1445fb4ba3be49d2203cd88, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: -0.1
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Stump_04_02
+      m_instances:
+      - m_name: PW_Tree_Stump_04_02
+        m_desktopPrefab: {fileID: 4513016249006233060, guid: 3aaa9274df29ee749ab6475877e0fbda, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: -0.1
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 0
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Log_02
+      m_instances:
+      - m_name: PW_Tree_Log_02
+        m_desktopPrefab: {fileID: 10963256607201845, guid: c9e3bc20e6876aa4d853eb4dd1bf2994, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: -0.1
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: PW_Tree_Fallen_Sequoia
+      m_instances:
+      - m_name: PW_Tree_Fallen_Sequoia
+        m_desktopPrefab: {fileID: 7015159266472721692, guid: c4202f18cbb1af84e9994fd2a5139c1b, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 20
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 1
+    - m_name: Birds
+      m_instances:
+      - m_name: Birds
+        m_desktopPrefab: {fileID: 8009441548408254674, guid: 8a91754fe033b6e43b3701eeb9589cdc, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: -0.3
+        m_maxSpawnOffsetY: -0.1
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 0
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: Butterfly
+      m_instances:
+      - m_name: Butterfly
+        m_desktopPrefab: {fileID: 3626015154497079009, guid: 7b2aa901361134c41ab5d7d475e237e0, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: -0.3
+        m_maxSpawnOffsetY: -0.1
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 0
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: 0
+        m_maxRotationOffsetX: 0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 180
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 5
+        m_virginTerrain: 1
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 0.75, y: 0.75, z: 0.75}
+        m_maxXYZScale: {x: 1.5, y: 1.5, z: 1.5}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 1
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria: []
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: Mood - Storm
+      m_instances:
+      - m_name: Mood
+        m_desktopPrefab: {fileID: 7954932900371079467, guid: 8825899e2f9d04f42b1a0eb967ccb6e0, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: -0
+        m_maxRotationOffsetX: -0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 0
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 0
+        m_virginTerrain: 0
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 1, y: 1, z: 1}
+        m_maxXYZScale: {x: 1, y: 1, z: 1}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 0
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 0
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria:
+      - m_name: 
+        m_checkType: 1
+        m_virginTerrain: 1
+        m_checkHeight: 1
+        m_minHeight: 0
+        m_maxHeight: 975
+        m_heightFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkSlope: 1
+        m_minSlope: 0
+        m_maxSlope: 8.035692
+        m_slopeFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkProximity: 0
+        m_proximityTag: 
+        m_minProximity: 0
+        m_maxProximity: 100
+        m_proximityFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkTexture: 0
+        m_matchingTextures: '!3'
+        m_isActive: 1
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 0
+      m_dnaFoldedOut: 0
+    - m_name: ForestZone
+      m_instances:
+      - m_name: ForestZone
+        m_desktopPrefab: {fileID: 3654243837218186229, guid: a35a083c636b7b349be91440edb21e5c, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0.207
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: -0
+        m_maxRotationOffsetX: -0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 0
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 0
+        m_virginTerrain: 0
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 1, y: 1, z: 1}
+        m_maxXYZScale: {x: 1, y: 1, z: 1}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 0
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 1
+      m_spawnCriteria:
+      - m_name: 
+        m_checkType: 1
+        m_virginTerrain: 1
+        m_checkHeight: 1
+        m_minHeight: 0
+        m_maxHeight: 975
+        m_heightFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkSlope: 1
+        m_minSlope: 0
+        m_maxSlope: 6.926488
+        m_slopeFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkProximity: 0
+        m_proximityTag: 
+        m_minProximity: 0
+        m_maxProximity: 100
+        m_proximityFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkTexture: 0
+        m_matchingTextures: '!3'
+        m_isActive: 1
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: NatureZone
+      m_instances:
+      - m_name: NatureZone
+        m_desktopPrefab: {fileID: 3828240451283044911, guid: 67c562a0d45e6ca418103ae0f8913bc1, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0.251
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: -0
+        m_maxRotationOffsetX: -0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 0
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 0
+        m_virginTerrain: 0
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 1, y: 1, z: 1}
+        m_maxXYZScale: {x: 1, y: 1, z: 1}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 0
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 2
+      m_spawnCriteria:
+      - m_name: 
+        m_checkType: 1
+        m_virginTerrain: 1
+        m_checkHeight: 1
+        m_minHeight: 0
+        m_maxHeight: 975
+        m_heightFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkSlope: 1
+        m_minSlope: 0
+        m_maxSlope: 5.3007092
+        m_slopeFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkProximity: 0
+        m_proximityTag: 
+        m_minProximity: 0
+        m_maxProximity: 100
+        m_proximityFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkTexture: 0
+        m_matchingTextures: '!3'
+        m_isActive: 1
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: OceanZone
+      m_instances:
+      - m_name: OceanZone
+        m_desktopPrefab: {fileID: 1358714155584520809, guid: e4b0cc33ed905654c8bd9f685705330a, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: -0
+        m_maxRotationOffsetX: -0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 0
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 0
+        m_virginTerrain: 0
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 1, y: 1, z: 1}
+        m_maxXYZScale: {x: 1, y: 1, z: 1}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 0
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 3
+      m_spawnCriteria:
+      - m_name: 
+        m_checkType: 1
+        m_virginTerrain: 1
+        m_checkHeight: 1
+        m_minHeight: 0
+        m_maxHeight: 975
+        m_heightFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkSlope: 1
+        m_minSlope: 0
+        m_maxSlope: 6.612374
+        m_slopeFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkProximity: 0
+        m_proximityTag: 
+        m_minProximity: 0
+        m_maxProximity: 100
+        m_proximityFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkTexture: 0
+        m_matchingTextures: '!3'
+        m_isActive: 1
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: WinterZone
+      m_instances:
+      - m_name: WinterZone
+        m_desktopPrefab: {fileID: 6192106008933401766, guid: 084b6a69f4c01bd40b6918a88d79c0f0, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0.54
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: -0
+        m_maxRotationOffsetX: -0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 0
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 0
+        m_virginTerrain: 0
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 1, y: 1, z: 1}
+        m_maxXYZScale: {x: 1, y: 1, z: 1}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 1
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 0
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 5
+      m_spawnCriteria:
+      - m_name: 
+        m_checkType: 1
+        m_virginTerrain: 1
+        m_checkHeight: 1
+        m_minHeight: 0
+        m_maxHeight: 975
+        m_heightFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkSlope: 1
+        m_minSlope: 0
+        m_maxSlope: 5.6514683
+        m_slopeFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkProximity: 0
+        m_proximityTag: 
+        m_minProximity: 0
+        m_maxProximity: 100
+        m_proximityFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkTexture: 0
+        m_matchingTextures: '!3'
+        m_isActive: 1
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    - m_name: Mood - Background Music
+      m_instances:
+      - m_name: Mood
+        m_desktopPrefab: {fileID: 7954932900371079467, guid: b66f35201f2efe1438061cac80ff4e8f, type: 3}
+        m_desktopPrefabFileName: 
+        m_minInstances: 1
+        m_maxInstances: 1
+        m_failureRate: 0
+        m_minSpawnOffsetX: 0
+        m_maxSpawnOffsetX: 0
+        m_minSpawnOffsetY: 0
+        m_maxSpawnOffsetY: 0
+        m_minSpawnOffsetZ: 0
+        m_maxSpawnOffsetZ: 0
+        m_rotateToSlope: 1
+        m_alignForwardVectorToSlope: 0
+        m_yOffsetToSlope: 0
+        m_minRotationOffsetX: -0
+        m_maxRotationOffsetX: -0
+        m_minRotationOffsetY: 0
+        m_maxRotationOffsetY: 0
+        m_minRotationOffsetZ: 0
+        m_maxRotationOffsetZ: 0
+        m_minScale: 1
+        m_maxScale: 1
+        m_scaleByDistance:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_localBounds: 0
+        m_virginTerrain: 0
+        m_extParam: 
+        m_spawnScale: 0
+        m_commonScale: 1
+        m_minXYZScale: {x: 1, y: 1, z: 1}
+        m_maxXYZScale: {x: 1, y: 1, z: 1}
+        m_scaleRandomPercentage: 0.5
+        m_XYZScaleRandomPercentage: {x: 0.5, y: 0.5, z: 0.5}
+        m_foldedOut: 0
+        m_yOffsetBasedOn: 0
+        m_customOffset: 0
+      m_dna:
+        m_boundsRadius: 0
+        m_scaleMultiplier: 1
+        m_extParam: 
+        m_protoIdx: 0
+      m_spawnCriteria:
+      - m_name: 
+        m_checkType: 1
+        m_virginTerrain: 1
+        m_checkHeight: 1
+        m_minHeight: 0
+        m_maxHeight: 975
+        m_heightFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkSlope: 1
+        m_minSlope: 0
+        m_maxSlope: 8.035692
+        m_slopeFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkProximity: 0
+        m_proximityTag: 
+        m_minProximity: 0
+        m_maxProximity: 100
+        m_proximityFitness:
+          serializedVersion: 2
+          m_Curve:
+          - serializedVersion: 3
+            time: 0
+            value: 1
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.3
+            value: 0.2
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 1
+            value: 0
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        m_checkTexture: 0
+        m_matchingTextures: '!3'
+        m_isActive: 1
+      m_spawnExtensions: []
+      m_canSpawnAsTree: 0
+      m_instancesFoldOut: 1
+      m_dnaFoldedOut: 0
+    m_spawnExtensionPrototypes: []
+    m_stampDistributionPrototypes: []
+    m_worldBiomeMaskPrototypes: []
+    m_probePrototypes: []
+    m_terrainModifierStampPrototypes: []
+  m_x: 0
+  m_y: 50
+  m_z: 0
+  m_width: 10
+  m_height: 10
+  m_rotation: 0
+  m_isWorldmapSpawner: 0
+  m_spawnRange: 500
+  m_generateRandomSeed: 0
+  m_randomSeed: 0
+  m_spawnDensity: 1
+  m_resourcesPath: 
+  m_spawnerRules:
+  - m_name: Stone_Base
+    m_guid: 2f9cb96d-b388-4e0a-95e0-2f627d75625a
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 2
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Stone_Ridges
+    m_guid: d3de5a9e-c6cb-4304-967b-0d50ee5f5125
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 3
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Sand
+    m_guid: 7234582c-148b-46aa-992e-5681cd9d134f
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 1
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Grass
+    m_guid: ae448d0d-844f-4340-82dc-68d85197885f
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 0
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: High
+    m_guid: 2c74ff7f-6680-4783-abd9-68d6ffc23ec3
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 0
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Mid
+    m_guid: d80799ad-fc89-4b30-a4c9-11c049cd106f
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 1
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Low
+    m_guid: 4e3e1d44-45d9-4111-942e-97fbeac3ccde
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 2
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Shore
+    m_guid: bf36d4ee-c5e8-41e7-881e-332d6a706b13
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 3
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Stump_05
+    m_guid: 7cb878cf-09a1-42b3-89e9-8c67114e6a34
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 4
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Stump_04_02
+    m_guid: b7c7ca80-916d-4010-a62a-104a1ece9707
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 5
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Log
+    m_guid: 019e3934-969d-4751-9764-00de18a88e72
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 6
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Fallen Sequoia
+    m_guid: 0c92817e-5abc-4e5c-8421-648dd9a1225b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 7
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Forest Path
+    m_guid: 6106aa1d-b1e9-4125-acca-ebec85ec71ee
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 5
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Ground Leaves
+    m_guid: 64486559-c0eb-4707-9731-706c533460bc
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 6
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Stone Riverbed
+    m_guid: 00b644d1-3e44-4cc1-9317-dff46ed064bf
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 0
+    m_resourceIdx: 4
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Sequoia_01
+    m_guid: a71b7a0b-597e-4af1-a421-106e66de1c8d
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 0
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Sequoia_02
+    m_guid: 8a3dfeb8-228e-4330-9299-b82c75b50861
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 1
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Spruce_01
+    m_guid: d74d0f7d-ad75-4b18-a647-9131c344d1a3
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 2
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Spruce_04
+    m_guid: a64ad91a-8b11-4702-9ec3-85ebaa69ecbb
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 3
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Spruce_07
+    m_guid: 4c166972-7210-4556-86bc-0b1530dc7f33
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 4
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Spruce_06
+    m_guid: e60fb5df-9b10-4a95-900d-bd12e9c7960b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 5
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Pine_01_Hero
+    m_guid: 88ae2ca5-8f37-4c55-887e-367279db2b7b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 6
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Pine_01_Long
+    m_guid: 6137c6ee-8b87-4db1-89ba-4dceec290f83
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 7
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Pine_02_Hero
+    m_guid: f31a5315-bf98-4a5d-9ea2-6ab3d9fc2adf
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 9
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Pine_02 Long
+    m_guid: 062bf909-3e39-4242-88bc-96d7439c4448
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 8
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_Tree_Small_01
+    m_guid: cef97d21-ffab-4d45-8a63-113779dc007c
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 10
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_Tree_Small_02
+    m_guid: 29130835-e8ce-4968-be31-fa218a08921b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 11
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Fern_01
+    m_guid: a4d16b0b-81f4-473a-988d-9de48c499014
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 16
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Fern_02
+    m_guid: 8851ac5a-f42e-4497-9a2c-a6552fba362c
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 12
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Fern_Realistic_01
+    m_guid: 29bcd064-74ea-4e4d-bf09-08802da22793
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 13
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Fern_Realistic_02
+    m_guid: a24f63d6-e04c-4fd7-92dd-fc058799cd5b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 14
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Fern_Realistic_03
+    m_guid: 8fde8133-4462-43f6-9416-80bdf114cf0d
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 2
+    m_resourceIdx: 15
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_WildGrass_General_Lod0
+    m_guid: d5545f6f-b171-40e8-a09c-ad1286a4f701
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 0
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_WildGrass_Understory_Sticks
+    m_guid: ff5e5714-bf63-4214-b1e0-d7aa9365c150
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 1
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_WildGrass_Understory_Sticks (1)
+    m_guid: 19faf96a-a74b-40c6-b215-b07f34546e4b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 2
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_LawnGrass_Wheat_03
+    m_guid: 09cf8ca5-91fb-42cd-8034-801987a11447
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 4
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_WildGrass_Understory_Sticks (2)
+    m_guid: 8b7c6960-c909-4af5-ba8e-ef88bec81671
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 3
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_LawnGrass_CloverFlower
+    m_guid: 202f4532-0404-4f10-8652-cfc9a21bf652
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 5
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: PW_LawnGrass_CloverFlower (1)
+    m_guid: 10899597-4d81-47c2-b3d9-72a588a5ea9d
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 1
+    m_resourceIdx: 6
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Birds
+    m_guid: 5272cefd-5a48-4d87-8797-b2fc23d77091
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 8
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Butterfly
+    m_guid: 24d0336b-ded3-4110-96d4-d45ff4d4d37b
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 9
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Mood - Storm
+    m_guid: abe17f9b-68e3-4039-97fa-7badcd33b985
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 10
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: Mood - Background Music
+    m_guid: 16dd2f7b-e469-4931-8eee-ec20b0f7bfd9
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 15
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: ForestZone
+    m_guid: 9aa6fc18-a4ae-4424-a7d4-cec7884c336a
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 11
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: NatureZone
+    m_guid: 66ba01d4-fffd-4ae2-ad23-a571e1e185a1
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 12
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: OceanZone
+    m_guid: 666db571-c175-4fae-b0ed-fa9ac61ec501
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 13
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  - m_name: WinterZone
+    m_guid: 2b57bf88-3d67-40e3-bb04-e74a1ff27f39
+    m_useExtendedSpawn: 0
+    m_minRequiredFitness: 0.25
+    m_minInstanceRequiredFitness: 0
+    m_failureRate: 0
+    m_maxInstances: 40000000
+    m_ignoreMaxInstances: 0
+    m_minDirection: 0
+    m_maxDirection: 359.9
+    m_locationIncrementMin: 25
+    m_locationIncrementMax: 45
+    m_jitterPercent: 1
+    m_boundsCheckQuality: 25
+    m_resourceType: 3
+    m_resourceIdx: 14
+    m_imageMasks: []
+    m_visualisationColor: {r: 1, g: 0.9849656, b: 0.7688679, a: 0}
+    m_noiseMask: 0
+    m_noiseMaskSeed: 0
+    m_noiseMaskOctaves: 8
+    m_noiseMaskPersistence: 0.25
+    m_noiseMaskFrequency: 1
+    m_noiseMaskLacunarity: 1.5
+    m_noiseZoom: 50
+    m_noiseStrength: 1
+    m_noiseInvert: 0
+    m_isActive: 1
+    m_isFoldedOut: 0
+    m_currInstanceCnt: 0
+    m_activeInstanceCnt: 0
+    m_inactiveInstanceCnt: 0
+    m_resourceSettingsFoldedOut: 0
+    m_isHelpActive: 0
+    m_spawnedInstances: 0
+    m_goSpawnTargetMode: 0
+    m_goSpawnTarget: {fileID: 0}
+    m_terrainGOSpawnTargetName: Gaia Game Object Spawns
+    m_terrainDetailDensity: 15
+    m_terrainDetailMinFitness: 0.5
+    m_terrainDetailFitnessBeginFadeOut: 0.6
+    m_createdBiomeController: {fileID: 0}
+    m_visibleInSceneHierarchy: 1
+    m_usesBoxStandIn: 0
+    m_boundsCollisionCheck: 0
+    m_changesHeightmap: 0
+    m_startOffsetX: 0
+    m_startOffsetZ: 0
+    m_collisionLayersToClear:
+      serializedVersion: 2
+      m_Bits: 0
+  m_showGizmos: 1
+  m_showDebug: 0
+  m_showTerrainHelper: 1
+  m_spawnMode: 0
+  imageMasks: []
+  m_clearSpawnsToggleTrees: 0
+  m_clearSpawnsToggleDetails: 0
+  m_clearSpawnsToggleGOs: 0
+  m_clearSpawnsToggleSpawnExtensions: 0
+  m_clearSpawnsToggleProbes: 0
+  m_clearSpawnsFor: 1
+  m_clearSpawnsFrom: 0
+  m_lastGUIDSaved: 
+  m_stampDensity: 0
+  m_stampJitter: 0.25
+  m_stampWidth: 100
+  m_stampHeight: 100
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c6e2812e73b674b85b77fb46a715b8, type: 3}
+  m_Name: 20250803-132046 Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+    AnySource
+  m_EditorClassIdentifier: 
+  m_clearTrees: 1
+  m_clearTerrainDetails: 1
+  m_clearGameObjects: 1
+  m_clearSpawnExtensions: 1
+  m_clearProbes: 1
+  m_clearStamps: 0
+  m_clearSpawnFrom: 0
+  m_clearSpawnFor: 0
+  m_spawnerSettings: {fileID: -6692292298522829927}

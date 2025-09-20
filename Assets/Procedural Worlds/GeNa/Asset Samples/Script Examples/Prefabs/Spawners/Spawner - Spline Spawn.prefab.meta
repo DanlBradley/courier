@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b150cd8a755f843479816d5c5835bf53
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Script Examples/Prefabs/Spawners/Spawner
+    - Spline Spawn.prefab
+  uploadId: 646938

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01062ba73c2b84687bdf9494a6b924b2, type: 3}
+  m_Name: late_game_quest
+  m_EditorClassIdentifier: 
+  questID: quest_late_game
+  title: Kill the Dragon
+  description: ur not gonna do it
+  requiredQuestIDs:
+  - find_arnt
+  completionCondition:
+    conditionType: 0
+    targetID: 
+    itemID: 
+    quantity: 1
+  objectiveDescriptions:
+  - YOU GOTTA KILL THE DRAGOOOOOON
+  - AND THEN SAVE THE PRINCESS
+  - AND THEN EXPLODE THE EARTH
+  rewards: []
+  isRepeatable: 0

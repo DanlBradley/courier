@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54e561c729a471d8fcc769501e2deac, type: 3}
+  m_Name: BaseNpcConfig
+  m_EditorClassIdentifier: 
+  aiStateTypes: 060000000200000000000000
+  npcType: 0
+  baseVisionDistance: 20
+  maxFOV: 90
+  canSee: 1
+  canHear: 1
+  memory: 3.5
+  alertedMemory: 8
+  enemyTypes:
+  - Player
+  noiseAttenuationFloor: 30
+  navAgentData:
+    movementSpeed: 8
+    angularSpeed: 360
+    stoppingDistance: 3
+  attackCooldown: 2
+  engagementDistance: 6
+  attackRange: 1
+  targetableLayer:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  beamSpeed: 3

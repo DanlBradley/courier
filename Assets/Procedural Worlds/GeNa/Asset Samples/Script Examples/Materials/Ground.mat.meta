@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 563d95786d56d4c49a0d846735cbfb06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Script Examples/Materials/Ground.mat
+  uploadId: 646938

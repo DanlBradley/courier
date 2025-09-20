@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 679bdcea1c6a50a468e5a32f02dae84d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Materials/GeNa_QuadMaterial.mat
+  uploadId: 646938

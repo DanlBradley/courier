@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a33fb74741f74c758a3b781032edd0cd, type: 3}
+  m_Name: BasicBackpack
+  m_EditorClassIdentifier: 
+  id: basic_backpack
+  name: Basic Backpack
+  description: Holds your stuff.
+  sprite: {fileID: -745996565581373146, guid: 1e0ab8ab456f94bf6a234e21a8386c89, type: 3}
+  size: {x: 3, y: 3}
+  defaultCompartments:
+  - {fileID: 11400000, guid: df3684c47bc3940718cf65326d86375e, type: 2}
+  - {fileID: 11400000, guid: c3a20b498afe245fcb26e4c24586f97b, type: 2}

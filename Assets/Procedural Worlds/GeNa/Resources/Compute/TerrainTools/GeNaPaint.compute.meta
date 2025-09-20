@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e2c33b6cf5ca764591a7d2856a64182
+ComputeShaderImporter:
+  externalObjects: {}
+  currentAPIMask: 4
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Compute/TerrainTools/GeNaPaint.compute
+  uploadId: 646938

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 030c273927a6a3a47b81f7a8e5ec8c15
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Editor/Decorators/GeNaObjectLayerDecoratorEditor.cs
+  uploadId: 646938

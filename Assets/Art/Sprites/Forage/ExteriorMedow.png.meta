@@ -1,0 +1,1320 @@
+fileFormatVersion: 2
+guid: d7b90d4badefa9b4187fd4b48843d825
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2308778334566742734
+    second: ExteriorMedow_0
+  - first:
+      213: 8305656538588026692
+    second: ExteriorMedow_1
+  - first:
+      213: 2321003253536781467
+    second: ExteriorMedow_2
+  - first:
+      213: 1843665641589565153
+    second: ExteriorMedow_3
+  - first:
+      213: 2861669883193670949
+    second: ExteriorMedow_4
+  - first:
+      213: 6696055029140004237
+    second: ExteriorMedow_5
+  - first:
+      213: 7267507512556716155
+    second: ExteriorMedow_6
+  - first:
+      213: -5648942853950133800
+    second: ExteriorMedow_7
+  - first:
+      213: 6847462585623957951
+    second: ExteriorMedow_8
+  - first:
+      213: 4319858628627154539
+    second: ExteriorMedow_9
+  - first:
+      213: 4604374935976177184
+    second: ExteriorMedow_10
+  - first:
+      213: 6500277393221975914
+    second: ExteriorMedow_11
+  - first:
+      213: 2003720491074244307
+    second: ExteriorMedow_12
+  - first:
+      213: 6942068842976828027
+    second: ExteriorMedow_13
+  - first:
+      213: -4882261386474419005
+    second: ExteriorMedow_14
+  - first:
+      213: -8665837904106087950
+    second: ExteriorMedow_15
+  - first:
+      213: -9142513983226063761
+    second: ExteriorMedow_16
+  - first:
+      213: -1140019275487338143
+    second: ExteriorMedow_17
+  - first:
+      213: -115442923674549582
+    second: ExteriorMedow_18
+  - first:
+      213: 3684819056348591906
+    second: ExteriorMedow_19
+  - first:
+      213: 77313324315247652
+    second: ExteriorMedow_20
+  - first:
+      213: 6238260165168844981
+    second: ExteriorMedow_21
+  - first:
+      213: -1294943719005940038
+    second: ExteriorMedow_22
+  - first:
+      213: -5055332501222641643
+    second: ExteriorMedow_23
+  - first:
+      213: -1338727973870964177
+    second: ExteriorMedow_24
+  - first:
+      213: 6546565494499708860
+    second: ExteriorMedow_25
+  - first:
+      213: 1056691676496994216
+    second: ExteriorMedow_26
+  - first:
+      213: 6364745120387043575
+    second: ExteriorMedow_27
+  - first:
+      213: -3446599404901670754
+    second: ExteriorMedow_28
+  - first:
+      213: -4499633980682843023
+    second: ExteriorMedow_29
+  - first:
+      213: 6883274446743720648
+    second: ExteriorMedow_30
+  - first:
+      213: 1466566594837119826
+    second: ExteriorMedow_31
+  - first:
+      213: 5177456632614168459
+    second: ExteriorMedow_32
+  - first:
+      213: 984647133101913147
+    second: ExteriorMedow_33
+  - first:
+      213: 8505026890587333079
+    second: ExteriorMedow_34
+  - first:
+      213: -6263704957407657927
+    second: ExteriorMedow_35
+  - first:
+      213: -3635415231906452543
+    second: ExteriorMedow_36
+  - first:
+      213: -5863980974384148974
+    second: ExteriorMedow_37
+  - first:
+      213: 6356327024634622052
+    second: ExteriorMedow_38
+  - first:
+      213: 383740113040286969
+    second: ExteriorMedow_39
+  - first:
+      213: 6066428701213178062
+    second: ExteriorMedow_40
+  - first:
+      213: -4317509574512856287
+    second: ExteriorMedow_41
+  - first:
+      213: -6460858561582294817
+    second: ExteriorMedow_42
+  - first:
+      213: -8112584621872762066
+    second: ExteriorMedow_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ExteriorMedow_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 357
+        width: 129
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecaf7f0b9ad6a0020800000000000000
+      internalID: 2308778334566742734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_1
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 396
+        width: 97
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44790f8dd9e934370800000000000000
+      internalID: 8305656538588026692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_2
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 359
+        width: 119
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94f591792cd53020800000000000000
+      internalID: 2321003253536781467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_3
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 409
+        width: 61
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6e9830224069910800000000000000
+      internalID: 1843665641589565153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_4
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 434
+        width: 26
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d3134d891b6b720800000000000000
+      internalID: 2861669883193670949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_5
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 317
+        width: 64
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d9b50629a2dec50800000000000000
+      internalID: 6696055029140004237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 366
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b700d68e39f5bd460800000000000000
+      internalID: 7267507512556716155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_7
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 363
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d922d9576cea91b0800000000000000
+      internalID: -5648942853950133800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 280
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb1d4e431f2170f50800000000000000
+      internalID: 6847462585623957951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 303
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b664a3ff88833fb30800000000000000
+      internalID: 4319858628627154539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_10
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 328
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e6297fb9606ef30800000000000000
+      internalID: 4604374935976177184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_11
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 298
+        width: 57
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f7f7469df953a50800000000000000
+      internalID: 6500277393221975914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 265
+        width: 93
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dec6a3ab25aecb10800000000000000
+      internalID: 2003720491074244307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_13
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 293
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ad0fff4de275060800000000000000
+      internalID: 6942068842976828027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_14
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 272
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc0696e229be3cb0800000000000000
+      internalID: -4882261386474419005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 274
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f914acf652ccb780800000000000000
+      internalID: -8665837904106087950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_16
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 272
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f64d4cba8f34f1180800000000000000
+      internalID: -9142513983226063761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 241
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 161aa7f4286dd20f0800000000000000
+      internalID: -1140019275487338143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_18
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 246
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b2cb86c54dd56ef0800000000000000
+      internalID: -115442923674549582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_19
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 244
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2277f33a86b132330800000000000000
+      internalID: 3684819056348591906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_20
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 210
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42407301f0ca21100800000000000000
+      internalID: 77313324315247652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_21
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 212
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0db598190c29650800000000000000
+      internalID: 6238260165168844981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_22
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 219
+        width: 58
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab617886c8f670ee0800000000000000
+      internalID: -1294943719005940038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 154
+        width: 120
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510332bdfd9d7d9b0800000000000000
+      internalID: -5055332501222641643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_24
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 184
+        width: 112
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22fa8a2002eb6de0800000000000000
+      internalID: -1338727973870964177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_25
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 149
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf0c7ec1a21ada50800000000000000
+      internalID: 6546565494499708860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 152
+        width: 81
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af17be2b7f1aae00800000000000000
+      internalID: 1056691676496994216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_27
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 151
+        width: 55
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0129217fd145850800000000000000
+      internalID: 6364745120387043575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_28
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 158
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9063c32a183b20d0800000000000000
+      internalID: -3446599404901670754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_29
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 113
+        width: 89
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c4f121cb61e81c0800000000000000
+      internalID: -4499633980682843023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_30
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 131
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c2dea1e3ad468f50800000000000000
+      internalID: 6883274446743720648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_31
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 115
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25388bc3c8a4a5410800000000000000
+      internalID: 1466566594837119826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_32
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 132
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8725f240650ad740800000000000000
+      internalID: 5177456632614168459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 118
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3475a5c95b2aad00800000000000000
+      internalID: 984647133101913147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_34
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 91
+        width: 59
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d16a9a35ece70670800000000000000
+      internalID: 8505026890587333079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_35
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 86
+        width: 61
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9300ddb1789d219a0800000000000000
+      internalID: -6263704957407657927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 93
+        width: 36
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbeb2b9b196c8dc0800000000000000
+      internalID: -3635415231906452543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_37
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 61
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e0f2c5f54fe9ea0800000000000000
+      internalID: -5863980974384148974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_38
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 49
+        width: 25
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460ff8b60c5363850800000000000000
+      internalID: 6356327024634622052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 63
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f4a5d38991535500800000000000000
+      internalID: 383740113040286969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_40
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 49
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8bb0f23c8403450800000000000000
+      internalID: 6066428701213178062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_41
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 23
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12330d8caef1514c0800000000000000
+      internalID: -4317509574512856287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_42
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 27
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd898dc8e5b6656a0800000000000000
+      internalID: -6460858561582294817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_43
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e233afac44f4a6f80800000000000000
+      internalID: -8112584621872762066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_44
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 360
+        width: 29
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71f75a3544c14d4ab6678b1228ec337
+      internalID: 2018446459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ExteriorMedow_45
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 92
+        width: 28
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5541dcddaeffdf342b83e02512b537bd
+      internalID: -1859790904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f65b00fad4b358b40b503de3568b2bf1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ExteriorMedow_0: 2308778334566742734
+      ExteriorMedow_1: 8305656538588026692
+      ExteriorMedow_10: 4604374935976177184
+      ExteriorMedow_11: 6500277393221975914
+      ExteriorMedow_12: 2003720491074244307
+      ExteriorMedow_13: 6942068842976828027
+      ExteriorMedow_14: -4882261386474419005
+      ExteriorMedow_15: -8665837904106087950
+      ExteriorMedow_16: -9142513983226063761
+      ExteriorMedow_17: -1140019275487338143
+      ExteriorMedow_18: -115442923674549582
+      ExteriorMedow_19: 3684819056348591906
+      ExteriorMedow_2: 2321003253536781467
+      ExteriorMedow_20: 77313324315247652
+      ExteriorMedow_21: 6238260165168844981
+      ExteriorMedow_22: -1294943719005940038
+      ExteriorMedow_23: -5055332501222641643
+      ExteriorMedow_24: -1338727973870964177
+      ExteriorMedow_25: 6546565494499708860
+      ExteriorMedow_26: 1056691676496994216
+      ExteriorMedow_27: 6364745120387043575
+      ExteriorMedow_28: -3446599404901670754
+      ExteriorMedow_29: -4499633980682843023
+      ExteriorMedow_3: 1843665641589565153
+      ExteriorMedow_30: 6883274446743720648
+      ExteriorMedow_31: 1466566594837119826
+      ExteriorMedow_32: 5177456632614168459
+      ExteriorMedow_33: 984647133101913147
+      ExteriorMedow_34: 8505026890587333079
+      ExteriorMedow_35: -6263704957407657927
+      ExteriorMedow_36: -3635415231906452543
+      ExteriorMedow_37: -5863980974384148974
+      ExteriorMedow_38: 6356327024634622052
+      ExteriorMedow_39: 383740113040286969
+      ExteriorMedow_4: 2861669883193670949
+      ExteriorMedow_40: 6066428701213178062
+      ExteriorMedow_41: -4317509574512856287
+      ExteriorMedow_42: -6460858561582294817
+      ExteriorMedow_43: -8112584621872762066
+      ExteriorMedow_44: 2018446459
+      ExteriorMedow_45: -1859790904
+      ExteriorMedow_5: 6696055029140004237
+      ExteriorMedow_6: 7267507512556716155
+      ExteriorMedow_7: -5648942853950133800
+      ExteriorMedow_8: 6847462585623957951
+      ExteriorMedow_9: 4319858628627154539
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

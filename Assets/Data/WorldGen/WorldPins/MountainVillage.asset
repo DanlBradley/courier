@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5848fe32b8aad469b970b07a48392751, type: 3}
+  m_Name: MountainVillage
+  m_EditorClassIdentifier: 
+  pin:
+    name: Village
+    position: {x: 0.8675, y: 0.13}
+    pinType: 0
+    pinSprite: {fileID: -1567502727462201301, guid: e92c1785f2a6644e6afff573a82fd58f, type: 3}
+    temperatureInfluence: 0.011
+    altitudeInfluence: -0.14
+    moistureInfluence: 0
+    influenceRadius: 0.172
+    influenceFalloff: 0.5
+    homePin: 0
+    uniquePinRegion: {fileID: 5267787633754228388, guid: add4099ce12952a40904f11abd9e4d95, type: 3}

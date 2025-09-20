@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: d04c4a5e8c37b8d46b0b6b76366b6e49
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/External/GaiaTimeOfDayLightSyncManager.cs
+  uploadId: 646938

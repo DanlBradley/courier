@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a075de13beb845cc8e3016cd59a109a3, type: 3}
+  m_Name: WorldGenConfig
+  m_EditorClassIdentifier: 
+  mapResolution: 256
+  noiseScale: 5
+  worldSeed: 90121
+  noiseOctaves: 4
+  pinAssets:
+  - {fileID: 11400000, guid: 9e766414d088046b6bfb6ced15c7052d, type: 2}
+  - {fileID: 11400000, guid: 534dc5f727499904f8613cf8fc32f88a, type: 2}
+  - {fileID: 11400000, guid: 36dee8b3cb5c3447e80c1af4ebaf78f5, type: 2}
+  - {fileID: 11400000, guid: 58ee585f33b5c4cdba4fbfcdc104589a, type: 2}
+  - {fileID: 11400000, guid: 7014154739d5a4177b1a6e24ed176d12, type: 2}
+  worldSizeInRegions: 24
+  regionDefinitions:
+  - {fileID: 11400000, guid: ec1a967b41d3a4184a03c761376a1fc6, type: 2}
+  - {fileID: 11400000, guid: 80f91ce5a692c42009cb04a15beac650, type: 2}
+  - {fileID: 11400000, guid: 722f2a13b7a3045308dc88edd7636a0f, type: 2}
+  - {fileID: 11400000, guid: 2302c56d210124462a7e665a152f9b76, type: 2}
+  - {fileID: 11400000, guid: 3f21db14adea44e3787372e3a549f881, type: 2}
+  - {fileID: 11400000, guid: 96e7551907b614bc191b7f1a6bc53afb, type: 2}
+  - {fileID: 11400000, guid: ab273ec4c12ec48539ab2716d4767327, type: 2}
+  - {fileID: 11400000, guid: f69c7326af7974e2fa8329b9c37ce47a, type: 2}
+  - {fileID: 11400000, guid: 4e436f017bfb841ed84eb3476bf8b295, type: 2}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2f0c75c520ed962479b2a81fea34df28
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Materials/GeNa_Road_2Lane_Intersection.mat
+  uploadId: 646938

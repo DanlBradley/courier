@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 01814de431294f948895b6cb4fc782ab
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Script Examples/Prefabs/Spawners/Spawner
+    - Animated Cube.prefab
+  uploadId: 646938

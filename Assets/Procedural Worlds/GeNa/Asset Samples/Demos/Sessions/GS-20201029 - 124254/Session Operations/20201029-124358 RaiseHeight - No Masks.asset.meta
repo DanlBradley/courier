@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 029e159934216054085ecbb28827d471
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Demos/Sessions/GS-20201029
+    - 124254/Session Operations/20201029-124358 RaiseHeight - No Masks.asset
+  uploadId: 646938

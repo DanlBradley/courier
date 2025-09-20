@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20250824 - 011915
+  m_EditorClassIdentifier: 
+  m_name: Session 20250824-011915
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 8/24/2025 1:19:15 AM
+  m_terrainWidth: 128
+  m_terrainDepth: 128
+  m_terrainHeight: 128
+  m_seaLevel: 34
+  m_spawnDensity: 1.2
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 8/24/2025 1:20:59 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 128'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012105
+    m_operationDateTime: 8/24/2025 1:21:05 AM
+    scriptableObjectAssetGUID: 999d6a5d46adf4975b792a7cafbf199b
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (12)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012105
+    m_operationDateTime: 8/24/2025 1:21:31 AM
+    scriptableObjectAssetGUID: 6b389d472906b42328bf1bcf579996d0
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012105
+    m_operationDateTime: 8/24/2025 1:22:24 AM
+    scriptableObjectAssetGUID: a970824e314894ef1a025ea0a1b448df
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 8/24/2025 1:23:42 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 256'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012346
+    m_operationDateTime: 8/24/2025 1:23:47 AM
+    scriptableObjectAssetGUID: eebd4e436154346fa91402bb10b110f5
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (12)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012346
+    m_operationDateTime: 8/24/2025 1:24:34 AM
+    scriptableObjectAssetGUID: 0ad09165abaa3425dbebe65231f53590
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012346
+    m_operationDateTime: 8/24/2025 1:25:05 AM
+    scriptableObjectAssetGUID: aecc59dbf52eb4c3bbe2896d9e136822
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 8/24/2025 1:25:24 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 256'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012528
+    m_operationDateTime: 8/24/2025 1:25:28 AM
+    scriptableObjectAssetGUID: a88314cfcc27e4ec482e05694b9a1d97
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 8/24/2025 1:25:54 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 256'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012557
+    m_operationDateTime: 8/24/2025 1:25:58 AM
+    scriptableObjectAssetGUID: 9a41b27e17fef401da722faede24f498
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (11)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012557
+    m_operationDateTime: 8/24/2025 1:26:22 AM
+    scriptableObjectAssetGUID: dc800418437184c068853148e4558692
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012557
+    m_operationDateTime: 8/24/2025 1:26:56 AM
+    scriptableObjectAssetGUID: 49128ad3d2c6d4d4fba8db5de3e1ea28
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 8/24/2025 1:27:16 AM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 1 x 1 tiles, tile size: 256'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012720
+    m_operationDateTime: 8/24/2025 1:27:20 AM
+    scriptableObjectAssetGUID: 4e0c8881cdd054a548b3fac49a846cf2
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (10)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250824 - 012720
+    m_operationDateTime: 8/24/2025 1:27:42 AM
+    scriptableObjectAssetGUID: eeee4d5a2055148e78083ec53b7c7f4e
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  m_terrainMinMaxCache:
+  - guid: c52d5f9dec87147cdafb817611ba727e
+    isWorldmap: 0
+    recalculate: 0
+    min: 5.8125887
+    max: 19.316702
+  - guid: d0c70089757554def987fa4e5fbcfd91
+    isWorldmap: 0
+    recalculate: 0
+    min: 50.485146
+    max: 64.149414
+  - guid: 17e938ea9b5bd427689d2df56a21c8c7
+    isWorldmap: 0
+    recalculate: 0
+    min: 50.000763
+    max: 66.243195
+  - guid: c3a87e16923d3473ea84cebc2bd3dcea
+    isWorldmap: 0
+    recalculate: 0
+    min: 50.250767
+    max: 64.149414
+  - guid: Worldmap
+    isWorldmap: 1
+    recalculate: 0
+    min: 25.779188
+    max: 32.085266
+  - guid: 5002adf3877db4780ae9cb3577aae34c
+    isWorldmap: 0
+    recalculate: 0
+    min: 51.055466
+    max: 65.33694
+  m_bakedMaskCacheEntries: []
+  m_worldBiomeMaskSettings: {fileID: 0}

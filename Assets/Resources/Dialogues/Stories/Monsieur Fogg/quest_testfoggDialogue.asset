@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a46b92507847d4b7dadd762f8f2cd, type: 3}
+  m_Name: quest_testfoggDialogue
+  m_EditorClassIdentifier: 
+  dialogueId: quest_testfoggdialogue
+  inkAsset: {fileID: 4900000, guid: 7dd119372fc8043c4ae6ce6f5039a95b, type: 3}
+  defaultPortrait: {fileID: -8241161963936568114, guid: e92c1785f2a6644e6afff573a82fd58f, type: 3}
+  defaultSpeakerName: Fogg
+  description: 'MONSIEUR FOGG NEEDS UR HELP [TEST]'

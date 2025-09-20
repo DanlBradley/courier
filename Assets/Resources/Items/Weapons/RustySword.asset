@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87afa14fbc114df4881ccd204b17e200, type: 3}
+  m_Name: RustySword
+  m_EditorClassIdentifier: 
+  id: RustySword
+  name: Rusty Sword
+  description: Rusty Sword for combat integration
+  sprite: {fileID: 0}
+  size: {x: 1, y: 1}
+  behaviors: []
+  slot: 5
+  weaponType: 1
+  baseDamage: 15
+  attackSpeed: 1
+  range: 2
+  weight: 2
+  energyCostMultiplier: 1
+  comboAttacks:
+  - attackName: FP_Attack1
+    animation: {fileID: 7400000, guid: 30ce7e05c913cf44eafef6b325c4429f, type: 2}
+    damageMultiplier: 0
+    energyCost: 0
+    range: 0
+    windupTime: 0.25
+    activeTime: 0.55
+    recoveryTime: 0.75
+    canCombo: 0
+    comboWindowStart: 0
+    comboWindowDuration: 0
+    knockbackForce: 0
+    statusEffectIds: []
+  - attackName: FP_Attack2
+    animation: {fileID: 7400000, guid: 7aaf66f66bae24057a8531992130526b, type: 2}
+    damageMultiplier: 0
+    energyCost: 0
+    range: 0
+    windupTime: 0.25
+    activeTime: 0.55
+    recoveryTime: 0.75
+    canCombo: 0
+    comboWindowStart: 0
+    comboWindowDuration: 0
+    knockbackForce: 0
+    statusEffectIds: []
+  - attackName: FP_Attack3
+    animation: {fileID: 7400000, guid: 5242f8128ba5c4b8c9d13a943f9c9b6a, type: 2}
+    damageMultiplier: 0
+    energyCost: 0
+    range: 0
+    windupTime: 0.25
+    activeTime: 0.55
+    recoveryTime: 0.75
+    canCombo: 0
+    comboWindowStart: 0
+    comboWindowDuration: 0
+    knockbackForce: 0
+    statusEffectIds: []
+  heavyAttack:
+    attackName: FP_HeavyAttack
+    animation: {fileID: 7400000, guid: afd2ca1ff01074a5dabeeaeeb88878d1, type: 2}
+    damageMultiplier: 1
+    energyCost: 10
+    range: 2
+    windupTime: 0.2
+    activeTime: 0.3
+    recoveryTime: 0.5
+    canCombo: 1
+    comboWindowStart: 0.5
+    comboWindowDuration: 0.3
+    knockbackForce: 5
+    statusEffectIds: []
+  swingSounds: []
+  hitSounds: []
+  hitEffectPrefab: {fileID: 0}
+  weaponPrefab: {fileID: 0}
+  gripOffset: {x: 0, y: 0, z: 0}
+  gripRotation: {x: 0, y: 0, z: 0}

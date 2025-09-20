@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3469845a879734f959e8eece83fbdeb3, type: 3}
+  m_Name: GameIDRegistry
+  m_EditorClassIdentifier: 
+  questIDs:
+  - quest_act_0_supplies_1
+  - find_arnt
+  - quest_late_game
+  - repeat
+  dialogueIDs:
+  - quest_act_0_supplies_1
+  - quest_testfoggdialogue
+  - quest_barbara_spoom
+  locationIDs: []
+  itemIDs:
+  - canteen
+  - basic_backpack
+  - basic_backpack_front_pockets
+  - basic_backpack_main
+  - player_frame
+  - specialized_frame
+  - general_large_module
+  - general_module
+  - mesh_foraging_sack
+  - player_pockets
+  - player_storage
+  - cooking_put
+  - hat_basic
+  - shirt_basic
+  - shoes_basic
+  - walking_stick
+  - flint_and_steel
+  - hatchet
+  - medicinal_herb
+  - pie
+  - potion
+  - bedroll
+  - tent
+  - torch
+  - RustySword
+  - wild_garlic
+  eventIDs: []

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5225af2c4cc478a9ee583f5a7e15085, type: 3}
+  m_Name: Player VitalsEffectsConfig
+  m_EditorClassIdentifier: 
+  vitalsEffects:
+  - vital: 3
+    thresholdValue: 20
+    thresholdValueRange: 0
+    type: 0
+    effectId: vitals_energy_debuff
+    isCurrentlyActive: 0
+  - vital: 3
+    thresholdValue: 5
+    thresholdValueRange: 0
+    type: 0
+    effectId: vitals_critical_health
+    isCurrentlyActive: 0
+  - vital: 4
+    thresholdValue: 20
+    thresholdValueRange: 0
+    type: 0
+    effectId: vitals_energy_debuff
+    isCurrentlyActive: 0
+  - vital: 4
+    thresholdValue: 5
+    thresholdValueRange: 0
+    type: 0
+    effectId: vitals_critical_health
+    isCurrentlyActive: 0
+  - vital: 6
+    thresholdValue: 120
+    thresholdValueRange: 30
+    type: 2
+    effectId: vitals_heartrate_medium
+    isCurrentlyActive: 1
+  - vital: 6
+    thresholdValue: 150
+    thresholdValueRange: 500
+    type: 2
+    effectId: vitals_heartrate_high
+    isCurrentlyActive: 0
+  - vital: 2
+    thresholdValue: 1
+    thresholdValueRange: 0
+    type: 0
+    effectId: vitals_energy_depleted
+    isCurrentlyActive: 0

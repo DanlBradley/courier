@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6b69b8311bcb3374993afeb13f0799a5
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 280570
+  packageName: Medieval Longbow and Arrow
+  packageVersion: 1.1
+  assetPath: Assets/Longbow_1.1/HDRP/Materials/WoodLeatherString.mat
+  uploadId: 692126

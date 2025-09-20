@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/BaseCamp.unity
+    guid: e8b516a87cdcd45b1a9b5e2e81dec6e6
+  - enabled: 0
+    path: Assets/Scenes/MountainVillage.unity
+    guid: 384a992c7bc4b9c4dbc628353db7d05f
+  - enabled: 0
+    path: Assets/Scenes/Lightwoods2.unity
+    guid: cca008852822a2646936219f489ef075
+  - enabled: 0
+    path: Assets/Scenes/LightWoods.unity
+    guid: 17182f0aaee7e3d4db677f3ef4f783b4
+  - enabled: 0
+    path: Assets/Scenes/MainScene.unity
+    guid: a22fbdd1b658d459f98be6b7321aa132
+  - enabled: 0
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: b896925218f0b42e2b4af9ecf4064b29
+  - enabled: 0
+    path: Assets/Scenes/MechanicsTestScene.unity
+    guid: 194d8ba24975f46d183e9655c6bf5210
+  - enabled: 1
+    path: Assets/Scenes/GameBuild_0.0.2.unity
+    guid: 060767ff1ea384e9eb8a181e11857806
+  - enabled: 1
+    path: Assets/Scenes/GameBuild_0.0.2/MountainVillage_0.0.2.unity
+    guid: 01de220afa78940c0b973f4f130a1ea2
+  - enabled: 1
+    path: Assets/Scenes/GameBuild_0.0.2/MechanicsTestScene_0.0.2.unity
+    guid: ab41c034de6ad4f5c9d93b417bb5a94a
+  - enabled: 1
+    path: Assets/Scenes/GameBuild_0.0.2/MainMenu_0.0.2.unity
+    guid: b39461b4d0f0a49149b0683e411e8b6f
+  - enabled: 1
+    path: Assets/Scenes/GameBuild_0.0.2/BaseCamp_0.0.2.unity
+    guid: b94f954bfe7a04880bbe2b65715037c0
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

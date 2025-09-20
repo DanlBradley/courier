@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: dcdb8c38c606ce54d9c1b0ca1e9f1b3c
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Core/Extensions/RiverFlow/GeNa
+    River/Shaders/SH_PP_ShrinkFromBlur.shader
+  uploadId: 646938

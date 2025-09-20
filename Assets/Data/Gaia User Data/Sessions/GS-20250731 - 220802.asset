@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e251860fcd970734c9f14ebd98a146c3, type: 3}
+  m_Name: GS-20250731 - 220802
+  m_EditorClassIdentifier: 
+  m_name: Session 20250731-220802
+  m_description: 'Rocking out at Creativity Central!
+
+
+    If you like Gaia please
+    consider rating it :)'
+  m_previewImage: {fileID: 0}
+  m_dateCreated: 7/31/2025 10:08:02 PM
+  m_terrainWidth: 1024
+  m_terrainDepth: 1024
+  m_terrainHeight: 1024
+  m_seaLevel: 25
+  m_spawnDensity: 0.52
+  m_isLocked: 0
+  m_previewImageBytes: 
+  m_previewImageWidth: 0
+  m_previewImageHeight: 0
+  m_operations:
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/31/2025 10:10:32 PM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 2 x 1 tiles, tile size: 1024'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221033
+    - Terrain_1_0-20250731 - 221033
+    m_operationDateTime: 7/31/2025 10:10:33 PM
+    scriptableObjectAssetGUID: 59213099c3b6b8e429cb3d676b968d22
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clear World
+    m_operationType: 10
+    m_isActive: 1
+    m_affectedTerrainNames: []
+    m_operationDateTime: 7/31/2025 10:12:28 PM
+    scriptableObjectAssetGUID: 
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: 'Creating World: 2 x 1 tiles, tile size: 1024'
+    m_operationType: 0
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221228
+    - Terrain_1_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:12:29 PM
+    scriptableObjectAssetGUID: bbe6ad2a3f9138448b7e41ecfea6fb6a
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (11)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221228
+    - Terrain_1_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:13:46 PM
+    scriptableObjectAssetGUID: c3eb1702299466a4dac524112640b16f
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Alpine Meadow-Trees(Clone)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221228
+    - Terrain_1_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:15:58 PM
+    scriptableObjectAssetGUID: aeb61dc32ccbc9845af3cf809339c77d
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing -, CurrentTerrainOnly, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:18:47 PM
+    scriptableObjectAssetGUID: 6e3a95e706e5db94f98ac39418fa8bc4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, CurrentTerrainOnly,
+      AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:18:59 PM
+    scriptableObjectAssetGUID: c0efd6b369df07041a10653c4083e4a4
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Clearing - Trees Details GOs SpawnExt Probes, AllTerrains, AnySource
+    m_operationType: 3
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_0_0-20250731 - 221228
+    - Terrain_1_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:19:14 PM
+    scriptableObjectAssetGUID: a750a961b97540644a08c9f821864381
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  - m_description: Spawning - Multiple Spawners (11)
+    m_operationType: 7
+    m_isActive: 1
+    m_affectedTerrainNames:
+    - Terrain_1_0-20250731 - 221228
+    - Terrain_0_0-20250731 - 221228
+    m_operationDateTime: 7/31/2025 10:19:40 PM
+    scriptableObjectAssetGUID: 71073c11ae8182b4891a7826be9eebd8
+    m_isFoldedOut: 0
+    sessionPlaybackState: 1
+    m_terrainsFoldedOut: 0
+    m_serializedExternalAction: 
+  m_terrainMinMaxCache:
+  - guid: 4337f4f594f26fe40829f1367fb1cefb
+    isWorldmap: 0
+    recalculate: 0
+    min: 92.81392
+    max: 185.81534
+  - guid: 77b8ab1700a365c4e9891061d3f54fc2
+    isWorldmap: 0
+    recalculate: 0
+    min: 97.782745
+    max: 208.15942
+  - guid: b472a6c9899d6b34caf27cfd0b339aa6
+    isWorldmap: 0
+    recalculate: 0
+    min: 257.25394
+    max: 298.87955
+  - guid: 0beea0a003593ed4fbc6b0e68026d04f
+    isWorldmap: 0
+    recalculate: 0
+    min: 261.16025
+    max: 305.03592
+  - guid: Worldmap
+    isWorldmap: 1
+    recalculate: 0
+    min: 0
+    max: 0
+  m_bakedMaskCacheEntries:
+  - fileName: Terrain_1_0-20250731 - 221228_LayerGameObject_26624_2
+    assetPath: Assets/Procedural Worlds/Packages - Install/Gaia/TerrainCollisionData/Terrain_1_0-20250731
+      - 221228/Terrain_1_0-20250731 - 221228_LayerGameObject_26624_2
+    fullPath: C:/Users/ajgia/Unity_Projects/Courier/Assets/Procedural Worlds/Packages
+      - Install/Gaia/TerrainCollisionData/Terrain_1_0-20250731 - 221228/Terrain_1_0-20250731
+      - 221228_LayerGameObject_26624_2
+    texture: {fileID: 0}
+  - fileName: Terrain_1_0-20250731 - 221228_LayerTree_26624_-0.2
+    assetPath: Assets/Procedural Worlds/Packages - Install/Gaia/TerrainCollisionData/Terrain_1_0-20250731
+      - 221228/Terrain_1_0-20250731 - 221228_LayerTree_26624_-0.2
+    fullPath: C:/Users/ajgia/Unity_Projects/Courier/Assets/Procedural Worlds/Packages
+      - Install/Gaia/TerrainCollisionData/Terrain_1_0-20250731 - 221228/Terrain_1_0-20250731
+      - 221228_LayerTree_26624_-0.2
+    texture: {fileID: 0}
+  m_worldBiomeMaskSettings: {fileID: 0}

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71c309ee0383483fa680b48395c1eac5, type: 3}
+  m_Name: Mountain
+  m_EditorClassIdentifier: 
+  regionObject: {fileID: 3118450237303305348, guid: 1cfcf05ec4765465f92901109058fb04, type: 3}
+  regionType: 1
+  regionSprite: {fileID: -1567502727462201301, guid: e92c1785f2a6644e6afff573a82fd58f, type: 3}
+  minTemp: -1
+  maxTemp: 1
+  minAltitude: 0.3
+  maxAltitude: 1
+  minMoisture: -1
+  maxMoisture: 1

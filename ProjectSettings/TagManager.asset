@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - PW - Nature
+  - PW - Prop
+  - PW - Building
+  - Synty Medium Farm
+  - Synty Small Farm
+  - Synty Tree
+  - DefaultSpawn
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - NPC
+  - Obstacle
+  - Interactable
+  - Fog Of War
+  - PW_VFX
+  - PW_Object_Small
+  - Map
+  - PW_Object_Medium
+  - PW_Object_Large
+  - PlayerWeapon
+  - EnemyWeapon
+  - Combatant
+  - Player
+  - Enemy
+  - Environment
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Hidden
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 1344980963
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 61921339
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 2110803807
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - 3D Objects - Light Layer 1 - Light Layer 1
+  - 2D Objects - Light Layer 2 - Light Layer 2
+  - Light Layer 3 - Light Layer 3
+  - Light Layer 4 - Light Layer 4
+  - Light Layer 5 - Light Layer 5
+  - Light Layer 6 - Light Layer 6
+  - Light Layer 7 - Light Layer 7
+  - Decal Layer default - Decal Layer default
+  - Decal Layer 1 - Decal Layer 1
+  - Decal Layer 2 - Decal Layer 2
+  - Decal Layer 3 - Decal Layer 3
+  - Decal Layer 4 - Decal Layer 4
+  - Decal Layer 5 - Decal Layer 5
+  - Decal Layer 6 - Decal Layer 6
+  - Decal Layer 7 - Decal Layer 7

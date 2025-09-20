@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d535612ee5aaf1b48ae6cd3b8ad4a09f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Materials/GeNa_HDRP_Road_Intersection_Material.mat
+  uploadId: 646938

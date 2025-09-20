@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb16ee5f67a1f0943bf6af36926447d4
+timeCreated: 1543350007
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Localization/English/SpawnerEditor.English.pwlpk
+  uploadId: 646938

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e74be05e1c14be48d18bdea6030fab8, type: 3}
+  m_Name: PlayerFrame
+  m_EditorClassIdentifier: 
+  id: player_frame
+  name: Player Frame
+  description: A basic backpack frame for holding modules
+  sprite: {fileID: 0}
+  size: {x: 1, y: 1}
+  behaviors: []
+  containerSize: {x: 10, y: 12}
+  frameGridSize: {x: 10, y: 12}
+  defaultModules:
+  - {fileID: 11400000, guid: 51a847f5851094ef396728cf3350c3d0, type: 2}
+  - {fileID: 11400000, guid: 9ceb53b399a014f3e9d5f7086c72306e, type: 2}

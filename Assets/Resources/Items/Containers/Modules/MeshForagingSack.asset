@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f54830465f7c4c4088065c429450ea91, type: 3}
+  m_Name: MeshForagingSack
+  m_EditorClassIdentifier: 
+  id: mesh_foraging_sack
+  name: Mesh Foraging Sack
+  description: It's a loose mesh foraging sack that that allows mushrooms and plants
+    to breathe, preserving their quality.
+  sprite: {fileID: -3066077019792619724, guid: e92c1785f2a6644e6afff573a82fd58f, type: 3}
+  size: {x: 5, y: 4}
+  behaviors: []
+  containerSize: {x: 5, y: 4}
+  moduleType: 2
+  moduleSize: {x: 5, y: 4}
+  waterproof: 0
+  weightModifier: 1
+  allowedCategories: 

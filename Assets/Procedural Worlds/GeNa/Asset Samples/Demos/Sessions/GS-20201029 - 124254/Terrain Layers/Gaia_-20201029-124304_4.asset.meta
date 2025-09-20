@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b75797d599b95d54fa743bb8b7800cdb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Demos/Sessions/GS-20201029
+    - 124254/Terrain Layers/Gaia_-20201029-124304_4.asset
+  uploadId: 646938

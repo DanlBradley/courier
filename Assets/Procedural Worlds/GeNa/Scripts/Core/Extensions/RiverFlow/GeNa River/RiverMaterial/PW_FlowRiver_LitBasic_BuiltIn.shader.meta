@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8d1b3f5e246fc6e419b84fd9bde9cee7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Core/Extensions/RiverFlow/GeNa
+    River/RiverMaterial/PW_FlowRiver_LitBasic_BuiltIn.shader
+  uploadId: 646938

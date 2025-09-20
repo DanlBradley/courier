@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1c7c3d034fa35cf419f4e9a97c439544
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Shaders/RiverShader.shader
+  uploadId: 646938

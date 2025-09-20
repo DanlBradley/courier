@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f0a46b92507847d4b7dadd762f8f2cd, type: 3}
+  m_Name: quest_barbara_spoom
+  m_EditorClassIdentifier: 
+  dialogueId: quest_barbara_spoom
+  inkAsset: {fileID: 4900000, guid: 9c403e442f86d4945898a2e149e120bf, type: 3}
+  defaultPortrait: {fileID: -2508745807826586800, guid: 722a02c408c70445c82c3ef408eb832c, type: 3}
+  defaultSpeakerName: Barbara
+  description: 'Barbara gives quest to go find Arnt [TEST]'

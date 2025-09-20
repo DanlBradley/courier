@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: bea49b04b3832cd43ab42904a92ef7eb
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Core/Extensions/RiverFlow/GeNa
+    River/RiverMaterial/PW_RiverFlow_LitBasic_URP.shadergraph
+  uploadId: 646938

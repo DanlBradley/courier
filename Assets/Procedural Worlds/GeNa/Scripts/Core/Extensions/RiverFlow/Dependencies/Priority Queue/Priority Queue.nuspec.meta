@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2a12f47ed3f24ef42b948bbdd93cb1dd
+DefaultImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Scripts/Core/Extensions/RiverFlow/Dependencies/Priority
+    Queue/Priority Queue.nuspec
+  uploadId: 646938

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b7c71896a6d9be4e9758d55dd641d61
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Materials/GeNa_RoadIntersection_LitBasic_URP.mat
+  uploadId: 646938

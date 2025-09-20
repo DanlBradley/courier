@@ -1,0 +1,10 @@
+﻿fileFormatVersion: 2
+guid: de78c7dae8844b548e490dc6e1b4749d
+timeCreated: 1628764992
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Resources/Compute/Includes/GPUNoise.cginc
+  uploadId: 646938

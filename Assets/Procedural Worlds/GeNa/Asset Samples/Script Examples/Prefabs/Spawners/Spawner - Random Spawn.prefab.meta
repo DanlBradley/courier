@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 70c0189a21f830447846e76b53af99c7
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Asset Samples/Script Examples/Prefabs/Spawners/Spawner
+    - Random Spawn.prefab
+  uploadId: 646938

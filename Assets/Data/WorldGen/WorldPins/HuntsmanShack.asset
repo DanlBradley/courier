@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5848fe32b8aad469b970b07a48392751, type: 3}
+  m_Name: HuntsmanShack
+  m_EditorClassIdentifier: 
+  pin:
+    name: Huntsman's Shack
+    position: {x: 0.81, y: 0.23}
+    pinType: 0
+    pinSprite: {fileID: -2161284852800301639, guid: e92c1785f2a6644e6afff573a82fd58f, type: 3}
+    temperatureInfluence: 0
+    altitudeInfluence: -0.113
+    moistureInfluence: 0.18
+    influenceRadius: 0.1
+    influenceFalloff: 0.5
+    homePin: 0
+    uniquePinRegion: {fileID: 5664169326627522280, guid: 8da40d540108f4920bee4e3d898d6e48, type: 3}

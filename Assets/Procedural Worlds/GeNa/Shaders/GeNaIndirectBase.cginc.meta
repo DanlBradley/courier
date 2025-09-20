@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e2220e4742bf1d04aabeebfcf0d7ed89
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 183186
+  packageName: GeNa Pro - Terrains, Villages, Roads & Rivers
+  packageVersion: 3.5.7
+  assetPath: Assets/Procedural Worlds/GeNa/Shaders/GeNaIndirectBase.cginc
+  uploadId: 646938
