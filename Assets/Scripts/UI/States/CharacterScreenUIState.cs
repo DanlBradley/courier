@@ -125,7 +125,7 @@ namespace UI.States
         
         private void ShowInventoryPanel()
         {
-            Debug.Log("lil webhook teeest");
+            Debug.Log("lil webhook teeeeeeest");
             if (inventoryTab == null) return;
             inventoryTab.SetActive(true);
             foreach (var ui in inventoryUIs.Where(ui => ui != null)) { UnityEngine.Object.Destroy(ui.gameObject); }
