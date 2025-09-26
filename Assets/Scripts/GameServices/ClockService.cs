@@ -32,6 +32,7 @@ namespace GameServices
         {
             InitializeGaiaIntegration();
             Logs.Log("Clock service initialized.", "GameServices");
+            Logs.Log("Testing git :)");
         }
 
         private void Update()
