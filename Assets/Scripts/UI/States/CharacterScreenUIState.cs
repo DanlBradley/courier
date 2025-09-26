@@ -7,6 +7,7 @@ using Interfaces;
 using Items;
 using UnityEngine;
 using UnityEngine.UI;
+using Utils;
 
 namespace UI.States
 {
@@ -57,8 +58,9 @@ namespace UI.States
         public override void OnEnter()
         {
             //get vars
-            playerContainers = ServiceLocator.GetService<InventoryService>().GetPlayerAccessibleContainers();
-            
+            playerContainers = ServiceLocator.GetService<InventoryService>().GetContainersOwnedBy(
+                GameManager.Instance.GetPlayer().GetComponent<PlayerInventory>());
+            Logs.Log("UI state: Player containers: " + playerContainers);
             //Handle UI
             SwitchToTab(currentTab);
             GameStateManager.Instance.ChangeState(GameState.UI);
@@ -76,17 +78,7 @@ namespace UI.States
             switch (tab)
             {
                 case CharacterTab.Inventory:
-                    if (playerContainers != null && playerContainers.Count > 0) 
-                    { 
-                        // Debug.Log("Player containers count: " + playerContainers.Count);
-                        ShowInventoryPanel(); 
-                    }
-                    else
-                    {
-                        Debug.LogError("CharacterScreenUIState: Could not get player containers");
-                        var uiStateManager = uiService.GetComponent<UIStateManager>();
-                        uiStateManager.TransitionToState<ExplorationUIState>();
-                    }
+                    ShowInventoryPanel(); 
                     break;
                 case CharacterTab.Status: break;
                 case CharacterTab.QuestLog: ShowQuestLogPanel(); break;

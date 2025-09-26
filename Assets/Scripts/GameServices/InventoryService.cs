@@ -72,7 +72,7 @@ namespace GameServices
             {
                 case PlayerInventory playerInventory:
                     var playerContainers = GetPlayerContainers(playerInventory);
-                    if (playerContainers[0] == null) Debug.LogWarning("Failed to retrieve any player containers.");
+                    if (playerContainers == null) Debug.LogWarning("Failed to retrieve any player containers.");
                     return playerContainers;
                 case LootableContainerHandler lootableContainer:
                     var container = lootableContainer.GetLootContainer();
@@ -140,59 +140,13 @@ namespace GameServices
             return false;
         }
 
-        // SIMPLIFIED: This now just queries the current state
-        public List<ContainerItem> GetPlayerAccessibleContainers()
-        {
-            var player = GameManager.Instance.GetPlayer();
-            if (player == null)
-            {
-                Debug.LogError("Player not found!");
-                return null;
-            }
-
-            var playerInventory = player.GetComponent<PlayerInventory>();
-            if (!playerInventory)
-            {
-                Debug.LogError("Player inventory component not found!");
-                return null;
-            }
-
-            var containers = GetPlayerContainers(playerInventory);
-            return containers;
-        }
-        
-        private List<ContainerItem> GetPlayerContainers(PlayerInventory playerInventory)
-        {
-            List<ContainerItem> containers = new();
-
-            if (!equippedFrames.TryGetValue(playerInventory, out var frame))
-            {
-                Debug.LogWarning("No frame equipped!");
-                return null;
-            }
-            
-            var attachedModules = frame.GetAttachedModules();
-            containers.AddRange(attachedModules);
-            Debug.Log("Player containers:");
-            foreach (var container in containers)
-            {
-                Debug.Log($"Container: {container.containerID}");
-            }
-            Debug.Log($"Return containers of size {containers.Count}");
-            return containers;
-        }
-
         public bool AddItemToPlayerInventory(Item item)
         {
-            var playerContainers = GetPlayerAccessibleContainers();
-            foreach (var container in playerContainers)
-            {
-                if (!container.storage.TryAddItem(item)) continue;
-                OnInventoryChanged?.Invoke();
-                return true;
-            }
-
-            return false;
+            var playerContainers = GetContainersOwnedBy(
+                GameManager.Instance.GetPlayer().GetComponent<PlayerInventory>());
+            if (!playerContainers.Any(container => container.storage.TryAddItem(item))) return false;
+            OnInventoryChanged?.Invoke();
+            return true;
         }
 
         public bool TryDestroyItem(Item item)
@@ -228,5 +182,26 @@ namespace GameServices
             { if (frame.GetAttachedModules().Contains(container)) { return owner; } }
             return null;
         }
+        
+        private List<ContainerItem> GetPlayerContainers(PlayerInventory playerInventory)
+        {
+            List<ContainerItem> containers = new();
+
+            if (equippedFrames.TryGetValue(playerInventory, out var frame))
+            {
+                var attachedModules = frame.GetAttachedModules();
+                containers.AddRange(attachedModules);
+            } else {Debug.LogWarning("Frame not equipped.");}
+            
+            
+            Debug.Log("Player containers:");
+            foreach (var container in containers)
+            {
+                Debug.Log($"Container: {container.containerID}");
+            }
+            Debug.Log($"Return containers of size {containers.Count}");
+            return containers;
+        }
+        
     }
 }
